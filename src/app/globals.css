@@ -1,7 +1,41 @@
-
-
 /* /src/app/globals.css */
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root and Default Theme */
+:root, .default { 
+  --background-color: #aacdd1; 
+  --text-color: #333333;
+  --header-background: #00144f;
+
+ 
+}
+
+/* Alternate mode */
+.alternate {
+  --background-color: #222222; 
+  --header-background: #1a1a1a;
+  --text-color: #aaaaaa;
+  
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+
+
+
+
+
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -22,7 +56,7 @@
 }
 
 .brand {
-  --background: #f38fd0;
+  --background: #b3def4;
   --foreground: #333333;
   --primary: #0070f3;
   --secondary: #ff6b6b;
@@ -36,4 +70,4 @@ body {
 
 .theme-transition {
   transition: background-color 0.3s ease, color 0.3s ease;
-}
+} */
