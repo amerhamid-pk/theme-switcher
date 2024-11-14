@@ -4,20 +4,24 @@
 @tailwind utilities;
 
 /* :root and Default Theme */
-:root, .default { 
-  --background-color: #aacdd1; 
+:root,
+.default {
+  --background-color: #aacdd1;
   --text-color: #333333;
-  --header-background: #00144f;
-
- 
+  --header-background: #000f3b;
+  --header-text: #aaaaaa;
+  --footer-background: #00175e;
+  --footer-text: #888888;
 }
 
 /* Alternate mode */
 .alternate {
-  --background-color: #222222; 
+  --background-color: #222222;
   --header-background: #1a1a1a;
+  --header-text: #aaaaaa;
   --text-color: #aaaaaa;
-  
+  --footer-background: #1f1f1f;
+  --footer-text: #888888;
 }
 
 body {
@@ -28,46 +32,3 @@ body {
 body {
   transition: background-color 0.5s ease, color 0.5s ease;
 }
-
-
-
-
-
-
-
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #f0f8ff;
-  --foreground: #333333;
-  --primary: #0070f3;
-  --secondary: #ff6b6b;
-  --accent: #feca57;
-}
-
-.dark {
-  --background: #1a1a1a;
-  --foreground: #ffffff;
-  --primary: #3291ff;
-  --secondary: #ff8e8e;
-  --accent: #ffd66b;
-}
-
-.brand {
-  --background: #b3def4;
-  --foreground: #333333;
-  --primary: #0070f3;
-  --secondary: #ff6b6b;
-  --accent: #feca57;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-}
-
-.theme-transition {
-  transition: background-color 0.3s ease, color 0.3s ease;
-} */

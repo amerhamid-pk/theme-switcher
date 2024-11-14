@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
 
       {/* Footer */}
       <div className="py-6 text-center" style={{ backgroundColor: 'var(--foreground)', color: 'var(--background)' }}>
-        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
       </div>
     </>
   );
