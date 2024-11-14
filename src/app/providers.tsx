@@ -12,7 +12,7 @@ interface ProvidersProps {
 export function Providers({ children }: ProvidersProps) {
   return (
     <ThemeProvider
-      defaultTheme="brand" // Set brand as default theme
+      defaultTheme="default" // Set default theme
       attribute="class" // Use class-based theme switching
       enableSystem={false} // Disable system theme detection
     >
